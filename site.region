@@ -12,7 +12,7 @@
     <div class="site-container">
 
       <header class="header">
-        <h1 class="site-title">
+        <h1 class="site-title" data-content-field="site-title">
           <a href="/">
             {website.siteTitle}
           </a>  
