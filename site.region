@@ -8,7 +8,7 @@
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
-    <p>Hello, World</p>
+    <img/>
     <div class="site-container">
 
       <header class="header">
