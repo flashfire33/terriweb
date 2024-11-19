@@ -11,21 +11,19 @@
     <p>Hello, World</p>
     <div class="site-container">
 
-      <header class="site-header">
-        <!-- site navigation -->
-        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
-
-        <!-- site title or logo -->
-        {.section website}
-          <h1 class="site-title-heading" data-content-field="site-title">
-            <a href="/" class="site-title-link">{siteTitle}</a>
-          </h1>
-        {.end}
+      <header class="header">
+        <h1 class="site-title" data-content-field="site-title">
+          <a href="/">
+            {website.siteTitle}
+          </a>  
+        </h1>
       </header>
 
       <!-- cms content injection point -->
-      <main class="content-container" role="main" data-content-field="main-content">
-       {squarespace.main-content}
+      <main class="content">
+        <section id="page" role="main" data-content-field="main-content">
+          {squarespace.main-content}
+        </section>
       </main>
 
       <!--Footer with open block field -->
